@@ -1,0 +1,16 @@
+#contenedor {
+  text-align: center;
+}
+#navegacion ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  li {
+    list-style: none;
+  }
+}
+
+.activa {
+  background-color: gold;
+  text-align: center;
+}

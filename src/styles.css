@@ -1,0 +1,37 @@
+.text-center {
+  display: flex;
+  align-items: center;
+  background-color: "rgba(52, 52, 52, 0.2)";
+}
+.calend {
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+}
+
+.bgImg {
+  background-image: url(./images/bg.png);
+  width: 1366px;
+  height: 600px;
+}
+
+.homeText {
+  border-style: dashed;
+  color: red;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.formAlign {
+  margin-top: 8%;
+}
